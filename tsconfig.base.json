@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-orchid-orm-zod-trpc-react-hook-form/database": [
+        "libs/database/src/index.ts"
+      ],
+      "@nx-orchid-orm-zod-trpc-react-hook-form/trpc": ["libs/trpc/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
