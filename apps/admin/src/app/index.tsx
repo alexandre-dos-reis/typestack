@@ -1,4 +1,4 @@
-import { TrpcProvider } from './utils/trpc/TrpcProvider';
+import { TrpcProvider } from '@nx-orchid-orm-zod-trpc-react-hook-form/trpc-react';
 import {
   RouterProvider,
   createReactRouter,
@@ -25,7 +25,7 @@ declare module '@tanstack/react-router' {
 }
 
 export const App = () => (
-  <TrpcProvider>
+  <TrpcProvider url="http://localhost:3000/trpc">
       <RouterProvider router={router} />
   </TrpcProvider>
 );
