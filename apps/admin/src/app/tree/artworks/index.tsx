@@ -1,5 +1,5 @@
 import { root } from '../../components/Layout';
-import { trpc } from '@nx-orchid-orm-zod-trpc-react-hook-form/trpc-react';
+import { trpc } from '@typestack/trpc-react';
 import { Link } from '@tanstack/react-router';
 
 export const artworksRoute = root.createRoute({

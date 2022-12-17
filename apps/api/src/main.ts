@@ -1,6 +1,6 @@
 import { fastifyTRPCPlugin } from '@trpc/server/adapters/fastify';
 import fastify from 'fastify';
-import { createContext, appRouter } from '@nx-orchid-orm-zod-trpc-react-hook-form/trpc';
+import { createContext, appRouter } from '@typestack/trpc';
 import cors from '@fastify/cors'
 
 const server = fastify({

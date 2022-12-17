@@ -1,4 +1,4 @@
-import { db } from '@nx-orchid-orm-zod-trpc-react-hook-form/database';
+import { db } from '@typestack/database';
 import { proc, router } from '../router';
 
 export const artworkRouter = router({

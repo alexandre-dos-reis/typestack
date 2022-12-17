@@ -15,13 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-orchid-orm-zod-trpc-react-hook-form/database": [
+      "@typestack/database": [
         "libs/database/src/index.ts"
       ],
-      "@nx-orchid-orm-zod-trpc-react-hook-form/trpc": [
+      "@typestack/trpc": [
         "libs/trpc/src/index.ts"
       ],
-      "@nx-orchid-orm-zod-trpc-react-hook-form/trpc-react": [
+      "@typestack/trpc-react": [
         "libs/trpc-react/src/index.ts"
       ]
     }
